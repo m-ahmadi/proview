@@ -1,0 +1,37 @@
+.home {
+
+	.boxes {
+		width: 80%;
+		height: 180px;
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+	
+	.box-header {
+		background: #E3E3E3;
+	}
+	
+	.box-content {
+		
+	}
+	
+	.top-box {
+		background: green;
+	}
+	.mid-box {
+		background: yellow;
+	}
+	.bot-box {
+		background: orange;
+		margin-bottom: 0;
+	}
+	
+	.product_thumbnail {
+		width: 100px;
+		height: 100px;
+		float: right;
+		margin-top: 10px;
+		margin-left: 10px;
+		background: #cecece;
+	}
+}

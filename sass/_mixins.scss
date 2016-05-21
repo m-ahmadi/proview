@@ -1,0 +1,76 @@
+@mixin font-face($alies, $filename) {
+	@font-face {
+		font-family: $alies;
+		src: url('../fonts/'+ $filename +'.eot');
+		src: url('../fonts/'+ $filename +'.eot?#iefix')    format('embedded-opentype'),
+			 url('../fonts/'+ $filename +'.woff2')         format('woff2'),
+			 url('../fonts/'+ $filename +'.woff')          format('woff'),
+			 url('../fonts/'+ $filename +'.ttf')           format('truetype'),
+			 url('../fonts/'+ $filename +'.svg#' + $alies) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+@mixin box-sizing($v) {
+	-webkit-box-sizing: $v;
+	-moz-box-sizing: $v;
+	-o-box-sizing: $v;
+	-ms-box-sizing: $v;
+	box-sizing: $v;
+}
+@mixin box-shadow($v) {
+	-webkit-box-shadow: $v;
+	-moz-box-shadow: $v;
+	-o-box-shadow: $v;
+	-ms-box-shadow: $v;
+	box-shadow: $v;
+}
+@mixin border-radius($v) {
+	-webkit-border-radius: $v;
+	-moz-border-radius: $v;
+	-o-border-radius: $v;
+	-ms-border-radius: $v;
+	border-radius: $v;
+}
+@mixin transition($v) {
+	-webkit-transition: $v;
+	-moz-transition: $v;
+	-o-transition: $v;
+	-ms-transition: $v;
+	transition: $v;
+}
+@mixin transition-duration($v) {
+	-webkit-transition-duration: $v;
+	-moz-transition-duration: $v;
+	-o-transition-duration: $v;
+	-ms-transition-duration: $v;
+	transition-duration: $v;
+}
+@mixin transition-timing-function($v) {
+	-webkit-transition-timing-function: $v;
+	-moz-transition-timing-function: $v;
+	-o-transition-timing-function: $v;
+	-ms-transition-timing-function: $v;
+	transition-timing-function: $v;
+}
+@mixin transform($v) {
+	-webkit-transform: $v;
+	-moz-transform: $v;
+	-o-transform: $v;
+	-ms-transform: $v;
+	transform: $v;
+}
+@mixin animation-delay($v){
+	-webkit-animation-delay: $v;
+	-moz-animation-delay: $v;
+	-o-animation-delay: $v;
+	-ms-animation-delay: $v;
+	animation-delay: $v;
+}
+@mixin animation-duration($v){
+	-webkit-animation-duration: $v;
+	-moz-animation-duration: $v;
+	-o-animation-duration: $v;
+	-ms-animation-duration: $v;
+	animation-duration: $v;
+}

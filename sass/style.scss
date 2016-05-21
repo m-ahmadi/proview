@@ -1,0 +1,42 @@
+@import 'lib/bootstrap-glyphicons/bootstrap';
+@import 'lib/materializecss-colors';
+@import 'lib/mrmrs-colors';
+
+@import 'mixins';
+//@include font-face('Yekan', 'BYekan');
+$font-stack: 'Yekan', tahoma, Arial, Helvetica, sans-serif;
+@import 'box-sizing';
+@import 'placeholder';
+
+body {
+	//width: 960px;
+	direction: rtl;
+	font-family: $font-stack;
+	margin: 0 auto;
+}
+
+@import 'header-footer';
+@import 'modals';
+.contents {
+	width: 100%;
+	background: #e8e8e8;
+}
+
+@import 'home';
+@import 'product';
+
+.no-display {
+	display: none;
+}
+.floatright {
+	float: right;
+}
+.floatleft {
+	float: left;
+}
+.text-align-left {
+	text-align: left;
+}
+.text-align-right {
+	text-align: right;
+}

@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Yekan";
+	src: url("../fonts/BYekan.eot");
+	src: url("../fonts/BYekan.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/BYekan.woff2")      format("woff2"),
+		 url("../fonts/BYekan.woff")       format("woff"),
+		 url("../fonts/BYekan.ttf")        format("truetype"),
+		 url("../fonts/BYekan.svg#Yekan")  format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "IranSans";
+	src: url("../fonts/iransans.eot");
+	src: url("../fonts/iransans.eot?#iefix")    format("embedded-opentype"),
+		 url("../fonts/iransans.woff2")         format("woff2"),
+		 url("../fonts/iransans.woff")          format("woff"),
+		 url("../fonts/iransans.ttf")           format("truetype"),
+		 url("../fonts/iransans.svg#IranSans")  format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

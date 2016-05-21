@@ -1,0 +1,58 @@
+#rate-modal {
+	form[name="rate"] {
+		border: 1px solid gainsboro;
+		padding: 2px 20px;
+	}
+	.questions {
+		//border-bottom: 1px solid gainsboro;
+		float: right;
+		width: 100%;
+		clear: both;
+	}
+	.indented {
+		padding-top: 10px;
+		padding-right: 50px;
+		padding-left: 50px;
+		padding-bottom: 25px;
+	}
+	.floated {
+		float: right;
+		margin-bottom: 10px;
+	}
+	.col {
+		width: 50%;
+	}
+	.col-half {
+		width: 25%;
+	}
+	
+	
+	.credit-info {
+		float: right;
+	}
+	.rate-radio {
+		//margin: 0 10px;
+		
+	}
+	
+	.vote4 {
+		color: #238a27;
+	}
+	.vote3 {
+		color: #d8c200;
+	}
+	.vote2 {
+		color: #FF9800;
+	}
+	.vote1 {
+		color: red;
+	}
+	
+	
+	
+	
+	.disabled {
+		color: #c7c7c7;
+	}
+	
+}
